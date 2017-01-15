@@ -1,0 +1,279 @@
+/* Base CSS */
+
+.alignleft {
+	float: left;
+	margin-right: 15px;
+}
+
+.alignright {
+	float: right;
+	margin-left: 15px;
+}
+
+.aligncenter {
+	display: block;
+	margin: 0 auto 15px;
+}
+
+a:focus {
+	outline: 0 solid
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+
+html,
+body {
+	height: 100%
+}
+
+body {
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+}
+
+p {
+	font-family: Exo Medium;
+	font-size: 14px;
+	color: #939291;
+}
+
+a:hover {
+	text-decoration: none
+}
+
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+	-webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+.section-padding {
+	padding: 70px 0;
+}
+
+.red-title {
+	font-size: 16px;
+	color: #ff6d6d;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.big-title {
+	font-size: 40px;
+	margin-bottom: 40px;
+}
+
+.big-title span {
+	color: #ff6d6d;
+}
+
+.home-section {
+	background-image: url(img/home-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	background-size: cover;
+	/*	height: 100%;*/
+	width: 100%;
+	padding-top: 130px;
+	padding-bottom: 150px;
+}
+
+.home-text.text-center > h2 {
+	color: #616161;
+	font-size: 60px;
+	font-weight: 100;
+	margin-bottom: 30px;
+	font-family: 'Exo', sans-serif;
+}
+
+.play-wrapper {
+	margin-bottom: 30px;
+}
+
+.home-text.text-center > p {
+	color: #b8b8bf;
+	font-size: 22px;
+	margin-top: 40px;
+}
+
+.service-section {
+	background: rgba(0, 0, 0, 0) url("img/service-bg.png") no-repeat scroll right bottom;
+	padding: 120px 0;
+	/*	height: 100%;*/
+}
+
+.feature-section {
+	padding: 120px 0;
+	background: url(img/feature-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*	height: 100%;*/
+}
+
+.feature-heading h2 {
+	margin-bottom: 90px;
+}
+
+.feature-image {
+	margin-bottom: 30px;
+}
+
+.feature h2 {
+	font-size: 22px;
+}
+
+.feature > p {
+	padding: 0 36px;
+}
+
+.responsive-section {
+	background-image: url(img/responsive-bg.png);
+	background-repeat: no-repeat;
+}
+
+.responsive-text {
+	margin-top: 50px;
+}
+
+.member-section {
+	background: url(img/members-bg.jpg);
+	background-repeat: no-repeat;
+	padding: 70px 0;
+	background-size: cover;
+}
+
+.member > h2 {
+	color: #fff;
+	font-size: 22px;
+	margin-bottom: 0;
+}
+
+.member-image {
+	margin-bottom: 20px;
+}
+
+.member > h3 {
+	color: #ff6d6d;
+	font-size: 15px;
+}
+
+.member > p {
+	font-family: Exo Regular Italic;
+	font-style: italic;
+	padding: 0 49px;
+}
+
+.member {
+	margin-bottom: 70px;
+}
+
+.logos {
+	text-align: center;
+}
+
+.browser-section {
+	background-color: #F6F5F3;
+}
+
+.contact-section {
+	background-color: #323969;
+}
+
+.contact-head h2 {
+	color: #fff;
+	margin-bottom: 50px;
+}
+
+.contact-head > span {
+	color: #fff;
+	position: absolute;
+	right: 45px;
+	top: 75px;
+}
+
+.contact-input > input[type="text"] {
+	background: #464c77 none repeat scroll 0 0;
+	border: 1px solid;
+	border-radius: 3px;
+	color: #fff;
+	padding: 10px 20px;
+	width: 100%;
+}
+
+.red-button {
+	background: #ff6d6d none repeat scroll 0 0;
+	border-radius: 3px;
+	color: #fff;
+	padding: 10px 96px;
+	position: relative;
+	top: 10px;
+}
+
+.contact-footer {
+	margin-top: 30px;
+}
+
+.contact-footer span {
+	text-decoration: underline;
+}
+
+.footer-section {
+	background: url(img/footer-bg.png);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+
+.footer-title {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.footer-text p {
+	font-size: 14px;
+}
+
+.footer-four > input {
+	background: #f6f6f6 none repeat scroll 0 0;
+	border: 1px solid #b8b8bf;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+
+.footer-icons {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.footer-icons i {
+	color: #cbcbcb;
+	padding: 0 8px;
+}
+
+.footer-four.footer-text > span {
+	background: #ff8a8a none repeat scroll 0 0;
+	border-radius: 3px;
+	color: #fff;
+	padding: 11px;
+	position: absolute;
+	right: 25px;
+}
+
+.footer-title > span {
+	margin-left: 5px;
+}

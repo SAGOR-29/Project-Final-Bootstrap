@@ -1,0 +1,106 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.service-section {
+		background: none;
+		text-align: center;
+	}
+	.home-text.text-center > h2 {
+		font-size: 35px;
+	}
+	.big-title {
+		font-size: 21px;
+	}
+	.red-title {
+		font-size: 14px;
+	}
+	.feature-section {
+		padding: 150px 0;
+	}
+	.feature-heading h2 {
+		margin-bottom: 30px;
+	}
+	.feature > p {
+		padding: 0;
+	}
+	.responsive-text h2 {
+		margin-bottom: 15px;
+	}
+	.responsive-text {
+		margin-top: 12px;
+	}
+	.member > p {
+		padding: 0;
+	}
+	.contact-head > span {
+		display: none;
+	}
+	.contact-input > input[type="text"] {
+		margin-bottom: 30px;
+	}
+	.footer-four.footer-text > span {
+		position: relative;
+	}
+	.footer-section {
+		background: none;
+	}
+	.footer-text {
+		margin-bottom: 30px;
+	}
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+	.home-text.text-center > h2 {
+		font-size: 22px;
+	}
+	.red-button {
+		padding: 10px 45px;
+	}
+	.home-text.text-center > p {
+		font-size: 12px;
+	}
+	.service-section {
+		text-align: center;
+		background: none;
+	}
+	.big-title {
+		font-size: 20px;
+	}
+	.feature-section {
+		padding: 180px 0 80px 0;
+		background-size: cover;
+	}
+	.feature-heading h2 {
+		margin-bottom: 23px;
+	}
+	.responsive-section {
+		text-align: center;
+		background: none;
+	}
+	.member-section {
+		background-size: cover;
+	}
+	.contact-input > input[type="text"] {
+		margin-bottom: 30px;
+	}
+	.footer-section {
+		background: none;
+		text-align: center;
+	}
+	.footer-text {
+		margin-bottom: 30px;
+	}
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
